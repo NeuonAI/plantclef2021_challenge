@@ -7,7 +7,7 @@ The goal of the challenge was to identify plants in field pictures based on a tr
 #### Herbarium-Field Triplet Loss Network (HFTL Network)
 ![Figure 1](https://github.com/NeuonAI/plantclef2021_challenge/blob/65c1058d41fe7daad951c0e4fd9e92e0cee71208/figures/HFTL_network.png "Herbarium-Field Triplet Loss Network")
 
-#### One-streamed Network (OSM)
+#### One-streamed Network (OSM Network)
 ![Figure 2](https://github.com/NeuonAI/plantclef2021_challenge/blob/65c1058d41fe7daad951c0e4fd9e92e0cee71208/figures/OSM_network.png "One-streamed Network")
 
 ### Stage 2: Obtain herbarium dictionary
@@ -69,4 +69,12 @@ The goal of the challenge was to identify plants in field pictures based on a tr
  
 - **Test Sets**
   - Test Set 1 (With field training images) <br /> [list/HFTL/clef2020_known_classes_field_test.txt](https://github.com/NeuonAI/plantclef2021_challenge/blob/65c1058d41fe7daad951c0e4fd9e92e0cee71208/list/HFTL/clef2020_known_classes_field_test.txt)
-  - Test Set 2 (Without field training images) <br /> [list/missing_class_sample.txt](https://github.com/NeuonAI/plantclef2021_challenge/blob/65c1058d41fe7daad951c0e4fd9e92e0cee71208/list/missing_class_sample.txt)
+  - Test Set 2 (Without field training images) <br /> [list/missing_class_sample.txt](https://github.com/NeuonAI/plantclef2021_challenge/blob/65c1058d41fe7daad951c0e4fd9e92e0cee71208/list/missing_class_sample.txt) <br />
+  (Note: The [image files for Test Set 2](https://github.com/NeuonAI/plantclef2021_challenge/tree/main/planttest) are sourced from Google Image queries)
+
+
+### Checkpoints
+- **HFTL Network**
+  - [HFTL inception v4 model](https://github.com/NeuonAI/plantclef2021_challenge/tree/main/checkpoints/HFTL_network)
+- **OSM Network**
+  - [OSM inception v4 model](https://github.com/NeuonAI/plantclef2021_challenge/tree/main/checkpoints/OSM_network)
